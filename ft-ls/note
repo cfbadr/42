@@ -1,0 +1,27 @@
+Le parsing des options est géré ils doit pouvoir accepter le chemin avant ou apres les options pas sur a cause d'anael peut etre qu'apres les options a verifier
+
+La date format heure:minute et la date de derniere modifications
+J'ai tout mis dans des liste chainée c'est plus simple à modifier une seul boucle sur le readdir contre 2 avec les tableaux et plus opti niveau mémoire ne pas oublier de free ma liste quand c'est fini
+
+ pour le tout les ls et a implementer sur le LS simple
+Et gerer l'affichage de plusieur ls (ls -l path1 path2
+
+
+J'ai changer le retour de checkOption pour qu'il me retourne la position du premier folder tout ce qui est apres doit etre consider comme un folder meme si il s'apelle par exemple  -l et mettre une erreur comme quoi il a pas reussi a l'ouvrir
+la je commence les ls plus compliquer si j'arrive pas a opendir je dois mettre une erreur
+s
+
+gerer le nom de fichier :
+Exemple:
+Libft:
+ft ...
+ft...
+ft..
+
+
+
+tente ftls -l libft depuis ~ 
+
+segfault sur ./ft_ls -
+
+
